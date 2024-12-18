@@ -102,6 +102,20 @@ func (cm *Config) GetConfig(key string) string {
 	return os.Getenv(key)
 }
 
+// GetConfigWithDefault retrieves a configuration value from the cache or environment variables if not found return the default value
+func (cm *Config) GetConfigWithDefault(key,defaultValue string) string {
+	if value, found := cm.cache.Get(key); found {
+		return value
+	}
+
+	value:=os.Getenv(key)
+	if value==""{
+		return defaultValue
+	}
+
+	return value
+}
+
 // Unmarshal binds configuration values to a given struct using tags or field names
 func (cm *Config) Unmarshal(target interface{}) error {
 	v := reflect.ValueOf(target)
