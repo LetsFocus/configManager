@@ -153,6 +153,10 @@ The `configManager` module performs the following actions:
 - **Cache Management**: The cache can be cleared manually or set to expire after a certain period, ensuring that configuration data remains up-to-date.
 - **Flexible Configuration Sources**: The module supports loading configuration data from `.env`, `.json`, and `.yaml` files. The order of loading is flexible based on whether `APP_ENV` is set or not.
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+
 ## Contributions
 
 Feel free to fork the repository, make changes, and create pull requests! We welcome contributions that improve functionality or fix bugs.
