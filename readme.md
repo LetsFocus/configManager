@@ -12,7 +12,7 @@
 - **Custom Parsing**: Allows custom parsing (e.g., JSON strings).
 - **Environment-Specific Files**: Supports app-specific configurations based on the `APP_ENV` variable (e.g., `.dev.env`, `.prod.env`).
 - **Caching**: Caches frequently accessed configuration data to improve performance.
-- **Recursive Directory Search**: Searches up to 3 levels of subdirectories to find configuration files.
+- **Recursive Directory Search**: Searches up to 3 levels of subdirectories to find configuration files(configs dir).
 - **Automatic Binding**: Automatically binds configuration data to struct fields.
 
 ## Installation
