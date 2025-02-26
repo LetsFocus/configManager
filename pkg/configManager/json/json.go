@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"io/ioutil"
 
-	"github.com/LetsFocus/configManager/internal"
+	"github.com/syntaxLabz/configManager/internal"
 )
 
 // JSONLoader implements ConfigLoader for .json files

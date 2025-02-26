@@ -4,7 +4,7 @@ import (
 	"gopkg.in/yaml.v3"
 	"io/ioutil"
 
-	"github.com/LetsFocus/configManager/internal"
+	"github.com/syntaxLabz/configManager/internal"
 )
 
 // YAMLLoader implements ConfigLoader for .yaml files

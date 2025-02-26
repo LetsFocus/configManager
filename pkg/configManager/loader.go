@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/LetsFocus/configManager/pkg/configManager/env"
-	"github.com/LetsFocus/configManager/pkg/configManager/json"
-	"github.com/LetsFocus/configManager/pkg/configManager/yaml"
+	"github.com/syntaxLabz/configManager/pkg/configManager/env"
+	"github.com/syntaxLabz/configManager/pkg/configManager/json"
+	"github.com/syntaxLabz/configManager/pkg/configManager/yaml"
 )
 
 // LoaderFactory creates ConfigLoader instances based on file extensions

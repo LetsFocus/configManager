@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/LetsFocus/configManager/pkg/cache"
+	"github.com/syntaxLabz/configManager/pkg/cache"
 )
 
 // Config manages loading and caching configurations
