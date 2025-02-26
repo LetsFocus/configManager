@@ -20,7 +20,7 @@
 To install the module, use the following command:
 
 ```bash
-go get github.com/LetsFocus/configManager
+go get github.com/syntaxLabz/configManager
 ```
 
 ## Example Usage
@@ -33,7 +33,7 @@ package main
 import (
     "fmt"
     "log"
-    "github.com/LetsFocus/configManager"
+    "github.com/syntaxLabz/configManager"
 )
 
 func main() {
@@ -44,7 +44,7 @@ func main() {
     var config AppConfig
 
     // Unmarshal data from environment variables into the config struct
-    err = cm.Unmarshal(&config)
+    err := cm.Unmarshal(&config)
     if err != nil {
         log.Fatal(err)
     }
